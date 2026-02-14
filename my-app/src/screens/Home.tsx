@@ -13,5 +13,9 @@ export const HomePage = () => {
             title='Go to Detail'
             onPress={() => navigation.navigate('detail', { rate: 3 })}
         />
+         <Button
+            title='Go to User Name'
+            onPress={() => navigation.navigate('setUserName')}
+        />
     </>
 }
